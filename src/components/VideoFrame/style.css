@@ -1,0 +1,38 @@
+.video-frame {
+    width: 320px;
+    font-size: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.video-frame__info {
+    width: 100%;
+    display: flex;
+    flex-grow: 1; 
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    min-height: 100px;
+}
+
+.video-frame__time {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.video-frame__info_img img {
+    max-width: 320px;
+    height: auto;
+}
+
+.video-frame__info_text {
+    background-color: #F8CECC;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
